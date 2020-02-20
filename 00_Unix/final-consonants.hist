@@ -1,0 +1,1 @@
+ sed 's/[^a-zA-Z]\+/\n/g' wiki.txt | grep -i '^[qwrtyplkjhgfdszxcvbnm]' | sed 's/[aeiouAEIOU].*/-/g'
